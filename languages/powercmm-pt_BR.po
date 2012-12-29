@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PowerComment v2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-12-29 05:29:43+0000\n"
+"Last-Translator: Claudio Sanches <contato@claudiosmweb.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: powercomment.php:0
+#: powercomment.php:204
+#: powercomment.php:205
+#@ powercmm
+msgid "PowerComment"
+msgstr "PowerComment"
+
+#. translators: plugin header field 'PluginURI'
+#: powercomment.php:0
+#@ powercmm
+msgid "http://www.ferramentasblog.com/2011/09/power-comment-validacao-de-comentarios.html"
+msgstr "http://www.ferramentasblog.com/2011/09/power-comment-validacao-de-comentarios.html"
+
+#. translators: plugin header field 'Description'
+#: powercomment.php:0
+#@ powercmm
+msgid "Validate the comments of your blog using jQuery, avoiding fields are left blank or filled in with invalid."
+msgstr "Valide os comentários de seu blog usando jQuery, evitando em branco ou preenchido de forma inválido."
+
+#. translators: plugin header field 'Author'
+#: powercomment.php:0
+#@ powercmm
+msgid "claudiosanches"
+msgstr "claudiosanches"
+
+#. translators: plugin header field 'AuthorURI'
+#: powercomment.php:0
+#@ powercmm
+msgid "http://claudiosmweb.com/"
+msgstr "http://claudiosmweb.com/"
+
+#. translators: plugin header field 'Version'
+#: powercomment.php:0
+#@ powercmm
+msgid "2.0"
+msgstr "2.0"
+
+#: powercomment.php:83
+#@ powercmm
+msgid "Notifications"
+msgstr "Notificações"
+
+#: powercomment.php:87
+#@ powercmm
+msgid "Author"
+msgstr "Autor"
+
+#: powercomment.php:88
+#@ powercmm
+msgid "Please fill in your name."
+msgstr "Por favor, preencha seu nome."
+
+#: powercomment.php:93
+#@ powercmm
+msgid "Email"
+msgstr "E-mail"
+
+#: powercomment.php:94
+#@ powercmm
+msgid "Enter a valid email address."
+msgstr "Por favor, insira um endereço de email válido."
+
+#: powercomment.php:99
+#@ powercmm
+msgid "URL"
+msgstr "URL"
+
+#: powercomment.php:100
+#@ powercmm
+msgid "Please use a valid website address (use http://)."
+msgstr "Por favor, use um endereço válido (use http://)."
+
+#: powercomment.php:105
+#@ powercmm
+msgid "Comment"
+msgstr "Comentário"
+
+#: powercomment.php:106
+#@ powercmm
+msgid "The comment should be at least 10 characters."
+msgstr "O comentário deverá ser de pelo menos 10 caracteres."
+
+#: powercomment.php:111
+#@ powercmm
+msgid "Settings"
+msgstr "Configurações"
+
+#: powercomment.php:115
+#@ powercmm
+msgid "Comment Settings"
+msgstr "Configurações de comentários"
+
+#: powercomment.php:118
+#@ powercmm
+msgid "Minimum number of characters that a comment may have."
+msgstr "Número mínimo de caracteres que um comentário pode ter."
+
+#: powercomment.php:122
+#@ powercmm
+msgid "Design"
+msgstr "Design"
+
+#: powercomment.php:126
+#@ powercmm
+msgid "Background Color"
+msgstr "Cor de fundo"
+
+#: powercomment.php:132
+#@ powercmm
+msgid "Border Color"
+msgstr "Cor da borda"
+
+#: powercomment.php:138
+#@ powercmm
+msgid "Text Color"
+msgstr "Cor do texto"
+
+#: powercomment.php:220
+#@ powercmm
+msgid "PowerComment Settings"
+msgstr "PowerComment Opções"
+
