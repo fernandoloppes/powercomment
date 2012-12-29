@@ -16,6 +16,8 @@ Validates the comments of your blog using jQuery, avoiding blank fields or inval
 
 Avoid the error page when sending a feedback form blank.
 
+The validation is done using [jQuery Validation](http://bassistance.de/jquery-plugins/jquery-plugin-validation/) by Jörn Zaefferer.
+
 **Requires Wordpress 3.5 to works!**
 
 ### Descrição em Português: ###
@@ -23,6 +25,8 @@ Avoid the error page when sending a feedback form blank.
 Valide os comentários de seu blog usando jQuery, evitando campos em branco ou campos inválidos.
 
 Evite a página de erro ao enviar um formulário de comentário em branco.
+
+A validação é feita usando [jQuery Validation](http://bassistance.de/jquery-plugins/jquery-plugin-validation/) de Jörn Zaefferer.
 
 **Requer a versão 3.5 Wordpress para funcionar!**
 
