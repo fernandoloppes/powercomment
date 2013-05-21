@@ -41,8 +41,6 @@ class Power_Comment {
 
         // Install default settings.
         register_activation_hook( __FILE__, array( &$this, 'install' ) );
-
-
     }
 
     /**
