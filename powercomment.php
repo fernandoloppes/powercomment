@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: PowerComment
- * Plugin URI: http://www.ferramentasblog.com/2011/09/power-comment-validacao-de-comentarios.html
+ * Plugin URI: https://github.com/claudiosmweb/powercomment
  * Description: Validate the comments of your blog using jQuery, avoiding fields are left blank or filled in with invalid.
  * Author: claudiosanches
  * Author URI: http://claudiosmweb.com/
