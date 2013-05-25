@@ -4,7 +4,7 @@ Donate link: http://claudiosmweb.com/doacoes/
 Tags: comment, validate, jquery
 Requires at least: 3.5
 Tested up to: 3.5
-Stable tag: 2.0
+Stable tag: 2.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,6 +68,12 @@ A validação é feita usando [jQuery Validation](http://bassistance.de/jquery-p
 2. Plugin Settings.
 
 == Changelog ==
+
+= 2.1.0 - 25/05/2013 =
+
+* Removed the footer_js method in favor to wp_localize_script.
+* Removed the front_end_styles method in favor to jQuery.css and wp_localize_script.
+* Code optimization.
 
 = 2.0 =
 
