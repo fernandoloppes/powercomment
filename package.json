@@ -1,0 +1,15 @@
+{
+  "name": "powercomment",
+  "description": "Validate the comments of your blog using jQuery, avoiding fields are left blank or filled in with invalid",
+  "version": "2.1.0",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-uglify": "~0.1.2",
+    "grunt-rsync": "~0.1.1",
+    "grunt-shell": "~0.2.2",
+    "grunt-wx-zipdir": "~0.3.1"
+  }
+}
