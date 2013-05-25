@@ -57,8 +57,8 @@ class Power_Comment {
             wp_enqueue_style( 'wp-color-picker' );
 
             wp_enqueue_script(
-                'powercmm-color-picker',
-                plugins_url( '/js/color-picker.js', __FILE__ ),
+                'powercomment-admin',
+                plugins_url( '/js/powercomment-admin.min.js', __FILE__ ),
                 array( 'wp-color-picker' ),
                 false,
                 true

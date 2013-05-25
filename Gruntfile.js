@@ -44,6 +44,7 @@ module.exports = function(grunt) {
             },
             all: [
                 "Gruntfile.js",
+                "js/powercomment-admin.js",
                 "js/powercomment.js"
             ]
         },
@@ -52,7 +53,8 @@ module.exports = function(grunt) {
         uglify: {
             dist: {
                 files: {
-                    "js/powercomment.min.js": ["js/jquery.validate.min.js", "js/powercomment.js"]
+                    "js/powercomment.min.js": ["js/jquery.validate.min.js", "js/powercomment.js"],
+                    "js/powercomment-admin.min.js": ["js/powercomment-admin.js"]
                 }
             }
         },
