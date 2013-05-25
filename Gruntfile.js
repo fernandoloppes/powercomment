@@ -18,6 +18,7 @@ module.exports = function(grunt) {
                 "README.md",
                 "package.json",
                 "*.zip",
+                "js/powercomment-admin.js",
                 "js/jquery.validate.min.js",
                 "js/powercomment.js"
             ]
