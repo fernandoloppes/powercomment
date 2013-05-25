@@ -42,6 +42,8 @@ class Power_Comment {
 
     /**
      * Load translations.
+     *
+     * @return void
      */
     public function languages() {
         load_plugin_textdomain( 'powercmm', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
@@ -49,6 +51,8 @@ class Power_Comment {
 
     /**
      * Load admin scripts.
+     *
+     * @return void
      */
     public function admin_scripts( $hook_suffix ) {
         if ( isset( $_GET['page'] ) && $_GET['page'] == 'powercomment' ) {
@@ -142,6 +146,8 @@ class Power_Comment {
 
     /**
      * Installs default settings on plugin activation.
+     *
+     * @return void
      */
     public function install() {
         $options = array();
@@ -157,6 +163,8 @@ class Power_Comment {
 
     /**
      * Update plugin settings.
+     *
+     * @return void
      */
     public function update() {
         if ( ! get_option( 'powercmm_settings' ) && get_option( 'powerc_author' ) ) {
@@ -193,6 +201,8 @@ class Power_Comment {
 
     /**
      * Add plugin settings menu.
+     *
+     * @return void
      */
     public function menu() {
         add_options_page(
@@ -206,6 +216,8 @@ class Power_Comment {
 
     /**
      * Plugin settings page.
+     *
+     * @return string Settings page HTML.
      */
     public function settings_page() {
         ?>
@@ -229,6 +241,8 @@ class Power_Comment {
 
     /**
      * Plugin settings form fields.
+     *
+     * @return void
      */
     public function plugin_settings() {
         $option = 'powercmm_settings';
@@ -353,9 +367,9 @@ class Power_Comment {
     /**
      * Valid options.
      *
-     * @param  array $input options to valid.
+     * @param  array $input Options to valid.
      *
-     * @return array        validated options.
+     * @return array        Validated options.
      */
     public function validate_options( $input ) {
         // Create our array for storing the validated options.
@@ -378,6 +392,8 @@ class Power_Comment {
 
     /**
      * Register front-end scripts.
+     *
+     * @return void
      */
     public function front_end_scripts() {
         if ( is_single() || is_page() ) {
@@ -408,6 +424,8 @@ class Power_Comment {
 
     /**
      * Display styles in front-end.
+     *
+     * @return void
      */
     public function front_end_styles() {
         if ( is_single() || is_page() ) {
