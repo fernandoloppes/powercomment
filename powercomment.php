@@ -5,7 +5,7 @@
  * Description: Validate the comments of your blog using jQuery, avoiding fields are left blank or filled in with invalid.
  * Author: claudiosanches
  * Author URI: http://claudiosmweb.com/
- * Version: 2.0
+ * Version: 2.1.0
  * License: GPLv2 or later
  * Text Domain: powercmm
  * Domain Path: /languages/
@@ -31,10 +31,7 @@ class Power_Comment {
         add_action( 'admin_enqueue_scripts', array( &$this, 'admin_scripts' ) );
 
         // Front-end scripts.
-        add_action( 'wp_enqueue_scripts', array( &$this, 'front_end_scripts' ) );
-
-        // Adds footer js.
-        add_filter( 'wp_footer', array( &$this, 'footer_js' ), 999 );
+        add_action( 'wp_enqueue_scripts', array( &$this, 'front_end_scripts' ), 999 );
 
         // Front-end styles.
         add_filter( 'wp_head', array( &$this, 'front_end_styles' ) );
@@ -70,7 +67,7 @@ class Power_Comment {
     }
 
     /**
-     * Sets default settings
+     * Sets default settings.
      *
      * @return array Plugin default settings.
      */
@@ -384,46 +381,28 @@ class Power_Comment {
      */
     public function front_end_scripts() {
         if ( is_single() || is_page() ) {
+            $options = get_option('powercmm_settings');
 
             wp_enqueue_script(
-                'jquery-validate',
-                plugins_url( '/js/jquery.validate.min.js', __FILE__ ),
+                'powercomment',
+                plugins_url( '/js/powercomment.min.js', __FILE__ ),
                 array( 'jquery' ),
                 false,
                 true
             );
 
-        }
-    }
+            wp_localize_script(
+                'powercomment',
+                'powercomment_params',
+                array(
+                    'comment_limit' => $options['comment_limit'],
+                    'author'        => $options['author'],
+                    'email'         => $options['email'],
+                    'url'           => $options['url'],
+                    'comment'       => $options['comment']
+                )
+            );
 
-    /**
-     * Display jQuery validate options in footer.
-     */
-    public function footer_js() {
-        if ( is_single() || is_page() ) {
-            $options = get_option('powercmm_settings');
-
-            $script = '<script type="text/javascript">';
-            $script .= 'jQuery(document).ready(function($){';
-            $script .= '$("#commentform").validate({';
-            $script .= 'rules:{';
-            $script .= 'author:{required:true,minlength:2},';
-            $script .= 'email:{required:true,email:true},';
-            $script .= 'url:{url:true},';
-            $script .= 'comment: {required:true,minlength:'. esc_js( $options['comment_limit'] ) .'}';
-            $script .= '},';
-            $script .= 'messages:{';
-            $script .= 'author:"'. esc_js( $options['author'] ) .'",';
-            $script .= 'email:"'. esc_js( $options['email'] ) .'",';
-            $script .= 'url:"'. esc_js( $options['url'] ) .'",';
-            $script .= 'comment:"'. esc_js( $options['comment'] ) .'"';
-            $script .= '}';
-            $script .= '});';
-            $script .= '});';
-            $script .= '</script>';
-            $script .= "\n";
-
-            echo $script;
         }
     }
 
