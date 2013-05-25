@@ -33,9 +33,6 @@ class Power_Comment {
         // Front-end scripts.
         add_action( 'wp_enqueue_scripts', array( &$this, 'front_end_scripts' ), 999 );
 
-        // Front-end styles.
-        add_filter( 'wp_head', array( &$this, 'front_end_styles' ) );
-
         // Install default settings.
         register_activation_hook( __FILE__, array( &$this, 'install' ) );
     }
@@ -415,35 +412,13 @@ class Power_Comment {
                     'author'        => $options['author'],
                     'email'         => $options['email'],
                     'url'           => $options['url'],
-                    'comment'       => $options['comment']
+                    'comment'       => $options['comment'],
+                    'text'          => $options['text_color'],
+                    'background'    => $options['background_color'],
+                    'border'        => $options['border_color'],
                 )
             );
 
-        }
-    }
-
-    /**
-     * Display styles in front-end.
-     *
-     * @return void
-     */
-    public function front_end_styles() {
-        if ( is_single() || is_page() ) {
-            $options = get_option('powercmm_settings');
-
-            $style = '<style type="text/css">';
-            $style .= '#commentform label.error {';
-            $style .= 'color:'. esc_js( $options['text_color'] ) .';';
-            $style .= 'background:'. esc_js( $options['background_color'] ) .';';
-            $style .= 'border:1px solid '. esc_js( $options['border_color'] ) .';';
-            $style .= 'display:block;';
-            $style .= 'margin:5px 0 10px !important;';
-            $style .= 'padding:5px !important;';
-            $style .= '}';
-            $style .= '</style>';
-            $style .= "\n";
-
-            echo $style;
         }
     }
 

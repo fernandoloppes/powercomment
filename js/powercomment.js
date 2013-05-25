@@ -23,6 +23,19 @@ jQuery(document).ready(function($) {
             email: powercomment_params.email,
             url: powercomment_params.url,
             comment: powercomment_params.comment
+        },
+        showErrors: function(errorMap, errorList) {
+            this.defaultShowErrors();
+            $.each(errorList, function(i, error) {
+                $(error.element).next('label.error').css({
+                    "color": powercomment_params.text,
+                    "background": powercomment_params.background,
+                    "border": "1px solid " + powercomment_params.border,
+                    "display": "block",
+                    "margin": "5px 0 10px",
+                    "padding": "5px"
+                });
+            });
         }
     });
 });
