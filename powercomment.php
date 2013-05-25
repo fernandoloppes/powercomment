@@ -387,7 +387,7 @@ class Power_Comment {
         }
 
         // Return the array processing any additional functions filtered by this action.
-        return apply_filters( 'wcccit_validate_input', $output, $input );
+        return apply_filters( 'powercmm_validate_input', $output, $input );
     }
 
     /**
