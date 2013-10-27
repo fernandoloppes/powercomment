@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PowerComment v2.1.0\n"
+"Project-Id-Version: PowerComment v2.1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-05-25 06:26:57+0000\n"
+"PO-Revision-Date: 2013-10-27 00:59:38+0000\n"
 "Last-Translator: Claudio Sanches <contato@claudiosmweb.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -24,122 +24,122 @@ msgstr ""
 #: powercomment.php:0
 #: powercomment.php:206
 #: powercomment.php:207
-#@ powercmm
+#@ powercomment
 msgid "PowerComment"
 msgstr "PowerComment"
 
 #. translators: plugin header field 'Description'
 #: powercomment.php:0
-#@ powercmm
+#@ powercomment
 msgid "Validate the comments of your blog using jQuery, avoiding fields are left blank or filled in with invalid."
 msgstr "Valide os comentários de seu blog usando jQuery, evitando em branco ou preenchido de forma inválido."
 
 #. translators: plugin header field 'Author'
 #: powercomment.php:0
-#@ powercmm
+#@ powercomment
 msgid "claudiosanches"
 msgstr "claudiosanches"
 
 #. translators: plugin header field 'AuthorURI'
 #: powercomment.php:0
-#@ powercmm
+#@ powercomment
 msgid "http://claudiosmweb.com/"
 msgstr "http://claudiosmweb.com/"
 
 #: powercomment.php:79
-#@ powercmm
+#@ powercomment
 msgid "Notifications"
 msgstr "Notificações"
 
 #: powercomment.php:83
-#@ powercmm
+#@ powercomment
 msgid "Author"
 msgstr "Autor"
 
 #: powercomment.php:84
-#@ powercmm
+#@ powercomment
 msgid "Please fill in your name."
 msgstr "Por favor, preencha seu nome."
 
 #: powercomment.php:89
-#@ powercmm
+#@ powercomment
 msgid "Email"
 msgstr "E-mail"
 
 #: powercomment.php:90
-#@ powercmm
+#@ powercomment
 msgid "Enter a valid email address."
 msgstr "Por favor, insira um endereço de email válido."
 
 #: powercomment.php:95
-#@ powercmm
+#@ powercomment
 msgid "URL"
 msgstr "URL"
 
 #: powercomment.php:96
-#@ powercmm
+#@ powercomment
 msgid "Please use a valid website address (use http://)."
 msgstr "Por favor, use um endereço válido (use http://)."
 
 #: powercomment.php:101
-#@ powercmm
+#@ powercomment
 msgid "Comment"
 msgstr "Comentário"
 
 #: powercomment.php:102
-#@ powercmm
+#@ powercomment
 msgid "The comment should be at least 10 characters."
 msgstr "O comentário deverá ser de pelo menos 10 caracteres."
 
 #: powercomment.php:107
-#@ powercmm
+#@ powercomment
 msgid "Settings"
 msgstr "Configurações"
 
 #: powercomment.php:111
-#@ powercmm
+#@ powercomment
 msgid "Comment Settings"
 msgstr "Configurações de comentários"
 
 #: powercomment.php:114
-#@ powercmm
+#@ powercomment
 msgid "Minimum number of characters that a comment may have."
 msgstr "Número mínimo de caracteres que um comentário pode ter."
 
 #: powercomment.php:118
-#@ powercmm
+#@ powercomment
 msgid "Design"
 msgstr "Design"
 
 #: powercomment.php:122
-#@ powercmm
+#@ powercomment
 msgid "Background Color"
 msgstr "Cor de fundo"
 
 #: powercomment.php:128
-#@ powercmm
+#@ powercomment
 msgid "Border Color"
 msgstr "Cor da borda"
 
 #: powercomment.php:134
-#@ powercmm
+#@ powercomment
 msgid "Text Color"
 msgstr "Cor do texto"
 
 #: powercomment.php:224
-#@ powercmm
+#@ powercomment
 msgid "PowerComment Settings"
 msgstr "PowerComment Opções"
 
 #. translators: plugin header field 'PluginURI'
 #: powercomment.php:0
-#@ powercmm
+#@ powercomment
 msgid "https://github.com/claudiosmweb/powercomment"
 msgstr "https://github.com/claudiosmweb/powercomment"
 
 #. translators: plugin header field 'Version'
 #: powercomment.php:0
-#@ powercmm
-msgid "2.1.0"
-msgstr "2.1.0"
+#@ powercomment
+msgid "2.1.1"
+msgstr "2.1.1"
 

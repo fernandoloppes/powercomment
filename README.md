@@ -3,8 +3,8 @@
 **Donate link:** http://claudiosmweb.com/doacoes/  
 **Tags:** comment, validate, jquery  
 **Requires at least:** 3.5  
-**Tested up to:** 3.5  
-**Stable tag:** 2.1.0  
+**Tested up to:** 3.7  
+**Stable tag:** 2.1.1  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -72,6 +72,10 @@ A validação é feita usando [jQuery Validation](http://bassistance.de/jquery-p
 
 
 ## Changelog ##
+
+### 2.1.1 - 26/10/2013 ###
+
+* Fixed the textdomain for new WordPress 3.7 standard.
 
 ### 2.1.0 - 25/05/2013 ###
 

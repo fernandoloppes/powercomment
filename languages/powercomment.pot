@@ -1,0 +1,105 @@
+# Copyright (C) 2013 PowerComment
+# This file is distributed under the same license as the PowerComment package.
+msgid ""
+msgstr ""
+"Project-Id-Version: PowerComment 2.1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/powercomment\n"
+"POT-Creation-Date: 2013-10-27 00:58:21+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: powercomment.php:79
+msgid "Notifications"
+msgstr ""
+
+#: powercomment.php:83
+msgid "Author"
+msgstr ""
+
+#: powercomment.php:84
+msgid "Please fill in your name."
+msgstr ""
+
+#: powercomment.php:89
+msgid "Email"
+msgstr ""
+
+#: powercomment.php:90
+msgid "Enter a valid email address."
+msgstr ""
+
+#: powercomment.php:95
+msgid "URL"
+msgstr ""
+
+#: powercomment.php:96
+msgid "Please use a valid website address (use http://)."
+msgstr ""
+
+#: powercomment.php:101
+msgid "Comment"
+msgstr ""
+
+#: powercomment.php:102
+msgid "The comment should be at least 10 characters."
+msgstr ""
+
+#: powercomment.php:107
+msgid "Settings"
+msgstr ""
+
+#: powercomment.php:111
+msgid "Comment Settings"
+msgstr ""
+
+#: powercomment.php:114
+msgid "Minimum number of characters that a comment may have."
+msgstr ""
+
+#: powercomment.php:118
+msgid "Design"
+msgstr ""
+
+#: powercomment.php:122
+msgid "Background Color"
+msgstr ""
+
+#: powercomment.php:128
+msgid "Border Color"
+msgstr ""
+
+#: powercomment.php:134
+msgid "Text Color"
+msgstr ""
+
+#. #-#-#-#-#  powercomment.pot (PowerComment 2.1.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: powercomment.php:206 powercomment.php:207
+msgid "PowerComment"
+msgstr ""
+
+#: powercomment.php:224
+msgid "PowerComment Settings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/claudiosmweb/powercomment"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Validate the comments of your blog using jQuery, avoiding fields are left "
+"blank or filled in with invalid."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "claudiosanches"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://claudiosmweb.com/"
+msgstr ""

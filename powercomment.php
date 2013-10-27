@@ -5,9 +5,9 @@
  * Description: Validate the comments of your blog using jQuery, avoiding fields are left blank or filled in with invalid.
  * Author: claudiosanches
  * Author URI: http://claudiosmweb.com/
- * Version: 2.1.0
+ * Version: 2.1.1
  * License: GPLv2 or later
- * Text Domain: powercmm
+ * Text Domain: powercomment
  * Domain Path: /languages/
  */
 
@@ -43,7 +43,7 @@ class Power_Comment {
      * @return void
      */
     public function languages() {
-        load_plugin_textdomain( 'powercmm', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+        load_plugin_textdomain( 'powercomment', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
     }
 
     /**
@@ -76,62 +76,62 @@ class Power_Comment {
 
         $settings = array(
             'notifications' => array(
-                'title' => __( 'Notifications', 'powercmm' ),
+                'title' => __( 'Notifications', 'powercomment' ),
                 'type' => 'section'
             ),
             'author' => array(
-                'title' => __( 'Author', 'powercmm' ),
-                'default' => __( 'Please fill in your name.', 'powercmm' ),
+                'title' => __( 'Author', 'powercomment' ),
+                'default' => __( 'Please fill in your name.', 'powercomment' ),
                 'type' => 'text',
                 'section' => 'notifications'
             ),
             'email' => array(
-                'title' => __( 'Email', 'powercmm' ),
-                'default' => __( 'Enter a valid email address.', 'powercmm' ),
+                'title' => __( 'Email', 'powercomment' ),
+                'default' => __( 'Enter a valid email address.', 'powercomment' ),
                 'type' => 'text',
                 'section' => 'notifications'
             ),
             'url' => array(
-                'title' => __( 'URL', 'powercmm' ),
-                'default' => __( 'Please use a valid website address (use http://).', 'powercmm' ),
+                'title' => __( 'URL', 'powercomment' ),
+                'default' => __( 'Please use a valid website address (use http://).', 'powercomment' ),
                 'type' => 'text',
                 'section' => 'notifications'
             ),
             'comment' => array(
-                'title' => __( 'Comment', 'powercmm' ),
-                'default' => __( 'The comment should be at least 10 characters.', 'powercmm' ),
+                'title' => __( 'Comment', 'powercomment' ),
+                'default' => __( 'The comment should be at least 10 characters.', 'powercomment' ),
                 'type' => 'text',
                 'section' => 'notifications'
             ),
             'settings' => array(
-                'title' => __( 'Settings', 'powercmm' ),
+                'title' => __( 'Settings', 'powercomment' ),
                 'type' => 'section'
             ),
             'comment_limit' => array(
-                'title' => __( 'Comment Settings', 'powercmm' ),
+                'title' => __( 'Comment Settings', 'powercomment' ),
                 'default' => 10,
                 'type' => 'text',
-                'description' => __( 'Minimum number of characters that a comment may have.', 'powercmm' ),
+                'description' => __( 'Minimum number of characters that a comment may have.', 'powercomment' ),
                 'section' => 'settings'
             ),
             'design' => array(
-                'title' => __( 'Design', 'powercmm' ),
+                'title' => __( 'Design', 'powercomment' ),
                 'type' => 'section'
             ),
             'background_color' => array(
-                'title' => __( 'Background Color', 'powercmm' ),
+                'title' => __( 'Background Color', 'powercomment' ),
                 'default' => '#ffd2d2',
                 'type' => 'color',
                 'section' => 'design'
             ),
             'border_color' => array(
-                'title' => __( 'Border Color', 'powercmm' ),
+                'title' => __( 'Border Color', 'powercomment' ),
                 'default' => '#cc0000',
                 'type' => 'color',
                 'section' => 'design'
             ),
             'text_color' => array(
-                'title' => __( 'Text Color', 'powercmm' ),
+                'title' => __( 'Text Color', 'powercomment' ),
                 'default' => '#000000',
                 'type' => 'color',
                 'section' => 'design'
@@ -203,8 +203,8 @@ class Power_Comment {
      */
     public function menu() {
         add_options_page(
-            __( 'PowerComment', 'powercmm' ),
-            __( 'PowerComment', 'powercmm' ),
+            __( 'PowerComment', 'powercomment' ),
+            __( 'PowerComment', 'powercomment' ),
             'manage_options',
             'powercomment',
             array( &$this, 'settings_page' )
@@ -221,7 +221,7 @@ class Power_Comment {
 
         <div class="wrap">
             <?php screen_icon( 'options-general' ); ?>
-            <h2><?php _e( 'PowerComment Settings', 'powercmm' ); ?></h2>
+            <h2><?php _e( 'PowerComment Settings', 'powercomment' ); ?></h2>
 
             <form method="post" action="options.php">
                 <?php
