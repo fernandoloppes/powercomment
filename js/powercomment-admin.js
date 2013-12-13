@@ -1,8 +1,8 @@
 jQuery(document).ready(function($) {
-    var myOptions = {
-        hide: true,
-        palettes: true
-    };
+	var myOptions = {
+		hide: true,
+		palettes: true
+	};
 
-    $('.powercmm-color-field').wpColorPicker(myOptions);
+	$('.powercmm-color-field').wpColorPicker(myOptions);
 });

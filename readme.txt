@@ -2,9 +2,9 @@
 Contributors: claudiosanches, fjorgemota
 Donate link: http://claudiosmweb.com/doacoes/
 Tags: comment, validate, jquery
-Requires at least: 3.5
-Tested up to: 3.7
-Stable tag: 2.1.1
+Requires at least: 3.8
+Tested up to: 3.8
+Stable tag: 2.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,6 +68,11 @@ A validação é feita usando [jQuery Validation](http://bassistance.de/jquery-p
 2. Plugin Settings.
 
 == Changelog ==
+
+= 2.1.2 - 13/12/2013 =
+
+* Fixed some code standards.
+* Added support to WordPress 3.8.
 
 = 2.1.1 - 26/10/2013 =
 
